@@ -3,7 +3,7 @@
 }
 
 nav {
-  /*display: none;*/
+  display: none;
 }
 
 img {
@@ -14,19 +14,19 @@ img {
 section  {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   /* justify-content: space-around; */
   /* justify-content: space-between; */
-  justify-content: space-evenly;
+  /*justify-content: space-evenly;*/
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
+  /*justify-content: center;*/
 }
 
 aside {
-  min-width: 20%;
+  min-width: 125px;
   display: flex;
   align-items: center;
   justify-content: center;
